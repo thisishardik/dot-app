@@ -51,7 +51,7 @@ class _AddItemPageState extends State<AddItemPage> {
             Column(
               children: <Widget>[
                 Container(
-                  height: 150.0,
+                  height: 80.0,
                   width: MediaQuery.of(context).size.width,
                   decoration: BoxDecoration(
                       color: Colors.deepOrange,
@@ -63,7 +63,7 @@ class _AddItemPageState extends State<AddItemPage> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 45.0,
+                        fontSize: 35.0,
                         fontFamily: 'BalsamiqSans',
                         fontWeight: FontWeight.bold),
                   ),
